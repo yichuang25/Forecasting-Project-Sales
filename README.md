@@ -158,10 +158,30 @@ After the candidate predictive variables were finalized in the pre-modeling step
 
 - ## Team Infomation
 
-- # Team Information
-
 - Haolong Liu - hl3614@columbia.edu
 
 - Yichen Huang - yichen.huang@columbia.edu
 
 - Taichen Zhou - tz2555@columbia.edu
+
+
+- ## File Description
+  - Folder Explore
+    - Data_Explore.ipynb: clean the data and generate Data/total_sales_09-10.pkl, Data/total_sales_10-11.pkl, Data/total_sales_09-10_cleaned.pkl and Data/total_sales_10-11_cleaned.pkl.
+  - Folder Analysis&Modeling
+    - Analysis.ipynb/Analysis_continued.ipynb: Visualizations and analysis on Data/total_sales_09-10.pkl, Data/total_sales_10-11.pkl.
+    - data_filtered: aggregated amount by date and generate Data/sales_day.pkl and Data/sales_day_filtered.pkl(drop data outside of 95%).
+    - GLM_originalData.ipynb/GLM_filteredDatai.ipynb: GLM model generated.
+    - Holt-Winters.ipynb: Holt-Winters model generated.
+    - prophet_originalData.ipynb/prophet_originalData: prophet model generated.
+    - SARIMAX_originalData/SARIMAX_filteredData.ipynb: SARIMAX model generated.
+    - neuralprophet_originalData.ipynb/neuralprophet_filteredData.ipynb: Neural Prophet model generated.
+  - Folder Data
+    - online_retail_II.xlsx: Raw data
+    - sales_day.pkl: Sales amount aggregated by date
+      - sales_day_filtered.pkl: Data outside of 95% range is dropped.
+    - sales_half-day.pkl: Sales amount aggregated by half of the day
+    - Sales09-10.pkl: Data from 2009 to 2010 after cleaning
+      - Sales09-10_cleaned.pkl: weekday and hour are extracted
+    - Sales10-11.pkl: Data from 2010 to 2011 after cleaning
+      - Sales10-11_cleaned.pkl: weekday and hour are extracted
