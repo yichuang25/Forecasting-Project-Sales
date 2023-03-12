@@ -156,15 +156,6 @@ After the candidate predictive variables were finalized in the pre-modeling step
 	- weekly_seasonality
 	- yearly_seasonality
 
-- ## Team Infomation
-
-- Haolong Liu - hl3614@columbia.edu
-
-- Yichen Huang - yichen.huang@columbia.edu
-
-- Taichen Zhou - tz2555@columbia.edu
-
-
 - ## File Description
   - Folder Explore
     - Data_Explore.ipynb: clean the data and generate Data/total_sales_09-10.pkl, Data/total_sales_10-11.pkl, Data/total_sales_09-10_cleaned.pkl and Data/total_sales_10-11_cleaned.pkl.
@@ -185,3 +176,10 @@ After the candidate predictive variables were finalized in the pre-modeling step
       - Sales09-10_cleaned.pkl: weekday and hour are extracted
     - Sales10-11.pkl: Data from 2010 to 2011 after cleaning
       - Sales10-11_cleaned.pkl: weekday and hour are extracted
+- ## Team Infomation
+
+- Haolong Liu - hl3614@columbia.edu
+
+- Yichen Huang - yichen.huang@columbia.edu
+
+- Taichen Zhou - tz2555@columbia.edu
